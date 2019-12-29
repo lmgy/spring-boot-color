@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9d2071d-00f3-4b15-80eb-ffa4b1c9898d" name="Default Changelist" comment="" />
+    <list default="true" id="e9d2071d-00f3-4b15-80eb-ffa4b1c9898d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lmgy/color/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lmgy/color/utils/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,13 +30,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1Ve6ZAhb1ePBOQdEHstZLsyNqDE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -68,11 +82,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577601266419</updated>
-      <workItem from="1577601273073" duration="2115000" />
+      <workItem from="1577601273073" duration="7968000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="777" y="-951" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577604542979">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state x="777" y="-951" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577604542979" />
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1577633553841">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
+    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1577633553840">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.0.center/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553840" />
+    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1577633553840">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.0.left/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553840" />
+    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1577633553840">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.0.right/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553840" />
+    <state width="1877" height="229" key="GridCell.Tab.1.bottom" timestamp="1577633553842">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.1.bottom/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553842" />
+    <state width="1877" height="229" key="GridCell.Tab.1.center" timestamp="1577633553841">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.1.center/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
+    <state width="1877" height="229" key="GridCell.Tab.1.left" timestamp="1577633553841">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.1.left/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
+    <state width="1877" height="229" key="GridCell.Tab.1.right" timestamp="1577633553841">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="229" key="GridCell.Tab.1.right/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
+    <state x="490" y="-905" key="Maven.ArtifactSearchDialog" timestamp="1577607727560">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state x="490" y="-905" key="Maven.ArtifactSearchDialog/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577607727560" />
   </component>
 </project>
