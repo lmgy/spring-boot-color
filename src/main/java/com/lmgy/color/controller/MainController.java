@@ -1,6 +1,7 @@
 package com.lmgy.color.controller;
 
 import com.lmgy.color.utils.ImageUtil;
+import io.swagger.annotations.Api;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,7 @@ import java.io.IOException;
  * @author lmgy
  * @date 2019/12/29
  */
+@Api(value = "生成图片", protocols = "http")
 @RestController
 @RequestMapping(value = "/v1")
 public class MainController {
