@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d2071d-00f3-4b15-80eb-ffa4b1c9898d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lmgy/color/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lmgy/color/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lmgy/color/service/IImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lmgy/color/service/impl/ImageServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-color.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-color.iml" afterDir="false" />
@@ -31,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Ve6ZAhb1ePBOQdEHstZLsyNqDE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,6 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2020-01-06/dokit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -100,7 +108,9 @@
       <updated>1577601266419</updated>
       <workItem from="1577601273073" duration="9433000" />
       <workItem from="1577675996043" duration="944000" />
-      <workItem from="1577790566086" duration="563000" />
+      <workItem from="1577790566086" duration="3439000" />
+      <workItem from="1578015601022" duration="3355000" />
+      <workItem from="1578270308441" duration="433000" />
     </task>
     <servers />
   </component>
@@ -108,42 +118,64 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="718" y="-935" key="#com.intellij.ide.util.MemberChooser" timestamp="1578017349532">
+      <screen x="0" y="-1080" width="1920" height="1030" />
+    </state>
+    <state x="718" y="-935" key="#com.intellij.ide.util.MemberChooser/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1578017349532" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.-1080.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1578015834679" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577793538931" />
     <state x="777" y="-951" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577604542979">
       <screen x="0" y="-1080" width="1920" height="1030" />
     </state>
     <state x="777" y="-951" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577604542979" />
-    <state width="1877" height="229" key="GridCell.Tab.0.bottom" timestamp="1577633553841">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578270693505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578270693505" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1578270744635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578270744635" />
+    <state width="1493" height="100" key="GridCell.Tab.0.bottom" timestamp="1577799492287">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.0.bottom/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
-    <state width="1877" height="229" key="GridCell.Tab.0.center" timestamp="1577633553840">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577799492287" />
+    <state width="1493" height="100" key="GridCell.Tab.0.center" timestamp="1577799492287">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.0.center/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553840" />
-    <state width="1877" height="229" key="GridCell.Tab.0.left" timestamp="1577633553840">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577799492287" />
+    <state width="1493" height="100" key="GridCell.Tab.0.left" timestamp="1577799492287">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.0.left/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553840" />
-    <state width="1877" height="229" key="GridCell.Tab.0.right" timestamp="1577633553840">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577799492287" />
+    <state width="1493" height="100" key="GridCell.Tab.0.right" timestamp="1577799492287">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.0.right/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553840" />
-    <state width="1877" height="229" key="GridCell.Tab.1.bottom" timestamp="1577633553842">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577799492287" />
+    <state width="1493" height="100" key="GridCell.Tab.1.bottom" timestamp="1577799492288">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.1.bottom/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553842" />
-    <state width="1877" height="229" key="GridCell.Tab.1.center" timestamp="1577633553841">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577799492288" />
+    <state width="1493" height="100" key="GridCell.Tab.1.center" timestamp="1577799492288">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.1.center/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
-    <state width="1877" height="229" key="GridCell.Tab.1.left" timestamp="1577633553841">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577799492288" />
+    <state width="1493" height="100" key="GridCell.Tab.1.left" timestamp="1577799492287">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.1.left/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
-    <state width="1877" height="229" key="GridCell.Tab.1.right" timestamp="1577633553841">
-      <screen x="0" y="-1080" width="1920" height="1030" />
+    <state width="1493" height="100" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577799492287" />
+    <state width="1493" height="100" key="GridCell.Tab.1.right" timestamp="1577799492288">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1877" height="229" key="GridCell.Tab.1.right/0.-1080.1920.1030/0.0.1536.824@0.-1080.1920.1030" timestamp="1577633553841" />
+    <state width="1493" height="100" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577799492288" />
     <state x="490" y="-905" key="Maven.ArtifactSearchDialog" timestamp="1577607727560">
       <screen x="0" y="-1080" width="1920" height="1030" />
     </state>
